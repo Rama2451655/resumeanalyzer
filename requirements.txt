@@ -4,3 +4,6 @@ pdfminer.six
 docx2txt
 spacy
 openpyxl
+gunicorn
+
+
