@@ -2,7 +2,7 @@ SECRET_KEY = 'dev'
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = [
-    "https://resumeanalyzer-production-6d8e.up.railway.app"
+    "https://resumeanalyzer-production-6d8e.up.railway.app/"
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
