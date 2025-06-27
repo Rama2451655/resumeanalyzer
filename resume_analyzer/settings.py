@@ -1,6 +1,6 @@
 SECRET_KEY = 'dev'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INSTALLED_APPS = ['resume_app', 'django.contrib.admin', 'django.contrib.auth',
 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages',
