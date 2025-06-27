@@ -1,9 +1,15 @@
 SECRET_KEY = 'dev'
 DEBUG = True
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = [
-    "https://resumeanalyzer-production-6d8e.up.railway.app/"
+ALLOWED_HOSTS = [
+    "resumeanalyzer-production-6d8e.up.railway.app",
+    "127.0.0.1",
+    "localhost"
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://resumeanalyzer-production-6d8e.up.railway.app"
+]
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INSTALLED_APPS = ['resume_app', 'django.contrib.admin', 'django.contrib.auth',
